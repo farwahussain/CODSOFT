@@ -1,0 +1,35 @@
+.about{
+    margin: 40px 0px;
+    padding: 20px;
+    margin-left: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-img img{ 
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content h1{
+    color: #f29f67;
+    font-family: cursive;
+    border-bottom: 3px solid #f29f67;
+    text-align: center;
+}
+
+.about-content p{
+    text-align: justify;
+    padding: 20px;
+}

@@ -1,0 +1,76 @@
+.contact{
+    margin-left: 130px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.card0{
+    box-shadow: 0px 4px 8px 0px #757575;
+
+}
+
+.card2{
+    margin: 0px 40px;
+}
+
+.card1 .image{
+    padding: 30px;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: #757575;
+    opacity: none;
+    font-weight: 300;
+}
+
+.input,textarea{
+    padding: 10px 12px;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    color: #f29f67;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #f29f67 !important;
+    outline-width: 0px;
+}
+
+.button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+
+.button{
+    background-color: #f29f67;
+    width: 200px;
+    color: beige;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.button:hover{
+    background-color: #757575;
+    color: white;
+}

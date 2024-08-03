@@ -1,0 +1,86 @@
+.project{
+    padding-left: 130px;
+    margin-top: 60px;
+}
+
+.techstack hr{
+    color: #f29f67;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.techstack h2{
+    font-weight: bold;
+    color: #f29f67;
+}
+
+#ads{
+    margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -30px;
+    background: #f29f67;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.project .card img{
+    height: 150px;
+    width: 100%;
+}
+
+.card-detail-badge{
+    background-color: #f29f67;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.card-inmage-ovearly{
+    font-size: 20px;
+}
+
+.card-inmage-ovearly span{
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+.project .card:hover{
+    background-color: beige;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+}
+
+.ads-btn{
+    width: 130px;
+    height: 40px;
+    background-color: #f29f67;
+    color: black;
+    display: block;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 1rem;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.ads-btn:hover{
+    background-color: beige;
+    color: #f29f67;
+    border: 1px solid #f29f67;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
